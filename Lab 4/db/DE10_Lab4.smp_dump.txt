@@ -1,0 +1,22 @@
+
+State Machine - |DE10_Top_Level|LED_control:led_control_comp|Current_State
+Name Current_State.init Current_State.State_Wickham Current_State.State_McVay Current_State.State_4 Current_State.State_3 Current_State.State_2 Current_State.State_1 Current_State.State_0 
+Current_State.State_0 0 0 0 0 0 0 0 0 
+Current_State.State_1 0 0 0 0 0 0 1 1 
+Current_State.State_2 0 0 0 0 0 1 0 1 
+Current_State.State_3 0 0 0 0 1 0 0 1 
+Current_State.State_4 0 0 0 1 0 0 0 1 
+Current_State.State_McVay 0 0 1 0 0 0 0 1 
+Current_State.State_Wickham 0 1 0 0 0 0 0 1 
+Current_State.init 1 0 0 0 0 0 0 1 
+
+State Machine - |DE10_Top_Level|LED_control:led_control_comp|Next_State
+Name Next_State.init Next_State.State_Wickham Next_State.State_McVay Next_State.State_4 Next_State.State_3 Next_State.State_2 Next_State.State_1 Next_State.State_0 
+Next_State.State_0 0 0 0 0 0 0 0 0 
+Next_State.State_1 0 0 0 0 0 0 1 1 
+Next_State.State_2 0 0 0 0 0 1 0 1 
+Next_State.State_3 0 0 0 0 1 0 0 1 
+Next_State.State_4 0 0 0 1 0 0 0 1 
+Next_State.State_McVay 0 0 1 0 0 0 0 1 
+Next_State.State_Wickham 0 1 0 0 0 0 0 1 
+Next_State.init 1 0 0 0 0 0 0 1 
